@@ -1,3 +1,4 @@
+import './css/styles.css';
 import Triangle from './triangle.js';
 $(document).ready(function() {
   $('#triangle-checker-form').submit(function(event) {
