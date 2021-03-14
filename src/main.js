@@ -2,7 +2,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import './css/styles.css';
-import Triangle from './triangle.js';
+import Triangle from '../src/js/triangle.js';
 $(document).ready(function() {
   $('#triangle-checker-form').submit(function(event) {
     event.preventDefault();
