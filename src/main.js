@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import './css/styles.css';
 import Triangle from './triangle.js';
 $(document).ready(function() {
